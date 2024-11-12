@@ -1,7 +1,7 @@
 /*!
  * Modal Remote
  * =================================
- * Use for johnitvn/yii2-ajaxcrud extension
+ * Use for gojiraki/yii2-ajaxcrud-2024 extension
  * @author John Martin john.itvn@gmail.com
  */
 (function ($) {

@@ -1,7 +1,7 @@
 yii2-ajaxcrud
 =============
 
-This is a fork of  [yii2-ajaxcrud](https://github.com/johnitvn/yii2-ajaxcrud).
+This is a fork of  [yii2-ajaxcrud](https://github.com//yii2-ajaxcrud).
 
 Gii CRUD template for Single Page Ajax Administration for yii2
 
@@ -23,13 +23,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist johnitvn/yii2-ajaxcrud "@dev"
+php composer.phar require --prefer-dist gojiraki/yii2-ajaxcrud-2024 "@dev"
 ```
 
 or add
 
 ```
-"johnitvn/yii2-ajaxcrud": "^2.1"
+"gojiraki/yii2-ajaxcrud-2024": "dev-bootstrap5-upgrade"
 ```
 
 to the require section of your `composer.json` file.

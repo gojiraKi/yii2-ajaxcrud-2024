@@ -1,9 +1,7 @@
 yii2-ajaxcrud
 =============
 
-[![Latest Stable Version](https://poser.pugx.org/johnitvn/yii2-ajaxcrud/v/stable)](https://packagist.org/packages/johnitvn/yii2-ajaxcrud)
-[![License](https://poser.pugx.org/johnitvn/yii2-ajaxcrud/license)](https://packagist.org/packages/johnitvn/yii2-ajaxcrud)
-[![Total Downloads](https://poser.pugx.org/johnitvn/yii2-ajaxcrud/downloads)](https://packagist.org/packages/johnitvn/yii2-ajaxcrud)
+This is a fork of  [yii2-ajaxcrud](https://github.com/johnitvn/yii2-ajaxcrud).
 
 Gii CRUD template for Single Page Ajax Administration for yii2
 

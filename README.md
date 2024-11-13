@@ -3,6 +3,8 @@ yii2-ajaxcrud
 
 This is a fork of  [yii2-ajaxcrud](https://github.com//yii2-ajaxcrud).
 
+This is to upgrade to support Bootstrap 5 library.
+
 Gii CRUD template for Single Page Ajax Administration for yii2
 
 ![yii2 ajaxcrud extension screenshot](https://c1.staticflickr.com/1/330/18659931433_6e3db2461d_o.png "yii2 ajaxcrud extension screenshot")

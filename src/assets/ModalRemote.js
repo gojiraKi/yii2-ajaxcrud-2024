@@ -2,7 +2,6 @@
  * Modal Remote
  * =================================
  * Use for gojiraki/yii2-ajaxcrud-2024 extension
- * @author John Martin john.itvn@gmail.com
  */
 (function ($) {
     $.fn.hasAttr = function (name) {
@@ -112,7 +111,7 @@ function ModalRemote(modalId) {
         $(this.header).find('h4.modal-title').remove();
         $(this.header).find('button.close').remove();
         // add new title
-        $(this.header).append('<h4 class="modal-title">' + title + '</h4><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>');
+        $(this.header).append('<h4 class="modal-title">' + title + '</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>');
     };
 
     /**
@@ -203,7 +202,7 @@ function ModalRemote(modalId) {
     function errorRemoteResponse(response) {
         this.setTitle(response.status + response.statusText);
         this.setContent(response.responseText);
-        this.addFooterButton('Close', 'button', 'btn btn-default', function (button, event) {
+        this.addFooterButton('Close', 'button', 'btn btn-secondary', function (button, event) {
             this.hide();
         })
     }
@@ -340,7 +339,7 @@ function ModalRemote(modalId) {
         this.addFooterButton(
             cancelLabel === undefined ? this.defaults.cancelLabel : cancelLabel,
             'button',
-            'btn btn-default pull-left',
+            'btn btn-secondary pull-left',
             function (e) {
                 this.hide();
             }
